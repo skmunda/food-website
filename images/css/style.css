@@ -1,0 +1,53 @@
+/*fonts*/
+@font-face{
+    font-family:"Raileway-regular";
+    src: url(../fonts/Raleway-MediumItalic.ttf);
+}
+@font-face{
+    font-family:"Raileway-regular";
+    src: url(../fonts/Raleway-SemiBold.ttf);
+}
+@font-face{
+    font-family:"Raileway-regular";
+    src: url(../fonts/Raleway-Black.ttf);
+}
+@font-face{
+    font-family:"Raileway-regular";
+    src: url(../fonts/Raleway-BlackItalic.ttf);
+}
+/*color*/
+:root{
+    --primary:#EEBF00;
+    --secondary:#232B38;
+    --ternary:#FE4545;
+    --danger:#FE4545;
+    --pure:#EFFEFE;
+    --light:#F0F0F0;
+    --heaven:#FFFFFF;
+    --fpoter:#2D333F;
+}
+.container{
+    width:100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+@media(min-width:576px){
+    .container{
+         max-width:540px;
+    }
+}
+@media(min-width:768px){
+    .container{
+         max-width:720px;
+    }
+}
+@media(min-width:992){
+    .container{
+         max-width:960px;
+    }
+}
+@media(min-width:1200px){
+    .container{
+         max-width:1152px;
+    }
+}
